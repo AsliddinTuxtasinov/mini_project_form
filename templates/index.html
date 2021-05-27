@@ -1,0 +1,19 @@
+{% extends 'nav-foot.html' %}
+{% load static %}
+{% block title%}Home{% endblock  %}
+{% block content %}
+    <div class="container">
+        <h1>This is home page</h1>
+        <ul>
+            <li>
+                <a href="{% url 'login' %}"><span>Login</span></a>
+            </li>
+            <li>
+                <a href="{% url 'register' %}"><span>Register</span></a>
+            </li>
+            <li>
+                <a href="{% url 'logout' %}"><span>log out</span></a>
+            </li>
+        </ul>
+    </div>
+{% endblock  %}

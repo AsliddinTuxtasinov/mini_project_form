@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 3%;
+    background-color: cornsilk;
+}
+.main{
+    margin: 5% auto;
+}
+.container .nav{
+    width: 100%;
+}
+.nav{
+    border: 1px solid cornflowerblue;
+}

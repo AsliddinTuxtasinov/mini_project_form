@@ -1,0 +1,9 @@
+{% extends 'nav-foot.html' %}
+{% load static %}
+{% block title%}{{user.username}}{% endblock  %}
+{% block content %}
+<div class="container">
+    <h1>{{request.user.username}} welcome</h1>
+    <a href="{% url 'logout'%}">logout</a>
+</div>
+{% endblock content %}
